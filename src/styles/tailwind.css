@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .server-default {
+    @apply h-12 bg-oasis_lightB_Bg rounded-full flex justify-center items-center cursor-pointer hover:rounded-2xl transition-all duration-100 ease-out;
+  }
+
+  .icon {
+    @apply h-6 text-oasis_userId cursor-pointer hover:text-oasis_iconHover;
+  }
+}
+
+@font-face {
+  font-family: "Road Rage";
+  src: local("Road Rage"), url("../fonts/Road_Rage.otf") format("truetype");
+  font-weight: bold;
+}
